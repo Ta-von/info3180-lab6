@@ -2,6 +2,19 @@ body {
     padding-top: 5rem;
 }
 
+img{
+height:150px;
+width:150px;
+}
+.news__list{
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+
+grid-auto-flow:row;
+width:100%;
+grid-gap:5%;
+}
+
 footer  {
     padding-top: 20px;
 }
